@@ -2,6 +2,21 @@
 __pycache__/
 *.py[codz]
 *$py.class
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Virtual environments
+venv/
+.env
 
 # C extensions
 *.so
